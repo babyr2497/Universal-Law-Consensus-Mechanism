@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.physical-law-adjustment-voting]
+path = 'contracts/physical-law-adjustment-voting.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.universal-parameter-optimization]
 path = 'contracts/universal-parameter-optimization.clar'
 clarity_version = 2
